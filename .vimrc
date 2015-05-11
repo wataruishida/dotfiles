@@ -90,6 +90,8 @@ set encoding=utf-8
 " 想定される改行コードの指定する
 set fileformats=unix,dos,mac
 
+set tabstop=2 shiftwidth=2 softtabstop=2
+
 " 挿入モードでTABを挿入するとき、代わりに適切な数の空白を使う
 set expandtab
 
