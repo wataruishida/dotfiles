@@ -3,6 +3,7 @@
 script_dir_path=$(dirname $(readlink -f $0))
 ln -snf ${script_dir_path}/.vimrc ~/.vimrc
 ln -snf ${script_dir_path}/.bashrc ~/.bashrc
+ln -snf ${script_dir_path}/.tmux.conf ~/.tmux.conf
 
 # setting vim/bundle
 mkdir -p ~/.vim/bundle
